@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-voting-dapp/static/css/main.0dfd42dd.css",
+    "main.js": "/react-voting-dapp/static/js/main.e3adb353.js",
+    "index.html": "/react-voting-dapp/index.html",
+    "static/media/zoom-image.svg": "/react-voting-dapp/static/media/zoom-image.4808389b4fe65ca187f0c16c27a8d916.svg",
+    "main.0dfd42dd.css.map": "/react-voting-dapp/static/css/main.0dfd42dd.css.map",
+    "main.e3adb353.js.map": "/react-voting-dapp/static/js/main.e3adb353.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dfd42dd.css",
+    "static/js/main.e3adb353.js"
+  ]
+}
