@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/react-voting-dapp/static/css/main.6d108de4.css",
-    "main.js": "/react-voting-dapp/static/js/main.fa06bcd4.js",
-    "static/media/vote-image.png": "/react-voting-dapp/static/media/vote-image.152107180befa5517693.png",
+    "main.css": "/react-voting-dapp/static/css/main.22b8769c.css",
+    "main.js": "/react-voting-dapp/static/js/main.0971cbb0.js",
     "static/media/sphere-grid.svg": "/react-voting-dapp/static/media/sphere-grid.b7b5269b3606f7037aec.svg",
     "index.html": "/react-voting-dapp/index.html",
     "static/media/zoom-image.svg": "/react-voting-dapp/static/media/zoom-image.4808389b4fe65ca187f0c16c27a8d916.svg",
-    "main.6d108de4.css.map": "/react-voting-dapp/static/css/main.6d108de4.css.map",
-    "main.fa06bcd4.js.map": "/react-voting-dapp/static/js/main.fa06bcd4.js.map"
+    "main.22b8769c.css.map": "/react-voting-dapp/static/css/main.22b8769c.css.map",
+    "main.0971cbb0.js.map": "/react-voting-dapp/static/js/main.0971cbb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d108de4.css",
-    "static/js/main.fa06bcd4.js"
+    "static/css/main.22b8769c.css",
+    "static/js/main.0971cbb0.js"
   ]
 }
