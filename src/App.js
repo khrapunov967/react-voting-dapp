@@ -8,6 +8,7 @@ import CreateElectionPage from "./pages/CreateElectionPage";
 import MyElectionsPage from "./pages/MyElectionsPage";
 import ElectionDetailsPage from "./pages/ElectionDetailsPage";
 import AboutUsPage from "./pages/AboutUsPage";
+import AuthPage from "./pages/AuthPage";
 
 function App() {
 
@@ -77,6 +78,7 @@ function App() {
           <Route path="/create-election" element={<CreateElectionPage />} />
           <Route path="/my-elections" element={<MyElectionsPage />} />
           <Route path="/:address" element={<ElectionDetailsPage />} />
+          <Route path="/auth" element={<AuthPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
         </Routes>
       </Context.Provider>

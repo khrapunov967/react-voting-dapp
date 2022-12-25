@@ -95,33 +95,6 @@ const CreateElectionPage = () => {
                         />
                     </div>
 
-                    <div className="flex gap-6 items-center">
-                        <input 
-                            value={candidateName}
-                            onChange={(e) => setCandidateName(e.target.value)}
-                            type="text" 
-                            placeholder="Имя кандидата..."
-                            className="w-full text-2xl max-2sm-screen:text-xl bg-transparent outline-none border-b-2 border-b-white placeholder:text-white placeholder:text-opacity-50"
-                        />
-
-                        {/* <LettersCounter 
-                            curr={candidateName.length} 
-                            max={16}
-                        /> */}
-
-                        <button className="nes-btn is-success py-1 px-2 text-xl max-3sm-screen:text-xs" onClick={addCandidate}>
-                            +
-                        </button>
-                    </div>
-
-                    <div className="flex flex-col items-center max-h-[200px] overflow-y-auto gap-6 w-[50%]">
-                        {
-                            !candidates.length ? <p>Пока нет кандидатов</p> :
-                            candidates.map((candidate) => <div className="text-xl border-4 p-2 border-white w-full flex justify-between items-center">{candidate.name} <button onClick={(e) => removeCandidatre(e, candidate.id)} className="nes-btn is-error p-0 text-xl max-3sm-screen:text-xs">x</button></div>)
-                        }
-                    </div>
-                    
-
                     <button 
                         className="nes-btn p-1 max-3sm-screen:text-xs"
                         onClick={(e) => deployElectionSmartContract(e, electionTitle)}
